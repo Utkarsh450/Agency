@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Remix Icon CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main w-full min-h-screen relative">
+        <div class="w-full h-screen relative overflow-hidden">
+            <!-- Navigation Bar -->
+            <nav class="flex px-36 py-5 absolute gap-10 z-[4] font-[gilroy]">
+                <div class="flex gap-1">
+                    <h1 class="text-[1.5rem] text-white font-semibold">NextWave</h1>
+                    <h1 class="text-[1.5rem] text-white font-semibold">Studios</h1>
+                </div>
+                <div class="flex gap-8 mx-16 my-2">
+                    <h1 class="text-sm text-green-300 font-semibold">Home</h1>
+                    <h1 class="text-sm text-green-300 font-semibold">Services</h1>
+                    <h1 class="text-sm text-green-300 font-semibold">Portfolio</h1>
+                    <h1 class="text-sm text-green-300 font-semibold">Contact Us</h1>
+                </div>
+                <div class="flex items-center gap-2 justify-center w-48 h-10 rounded-full bg-black">
+                    <h1 class="text-md font-semibold tracking-tight text-zinc-300">Book a</h1>
+                    <h1 class="text-md font-semibold tracking-tight text-zinc-300">Consultation</h1>
+                </div>
+                <div class="flex gap-5 ml-10 my-2">
+                    <i class="ri-arrow-down-s-line my-1"></i>
+                    <div class="w-10 h-10 rounded-full border-2 overflow-hidden">
+                        <img class="w-full h-full object-cover" src="https://media.istockphoto.com/id/472317739/vector/flag-of-india.jpg?s=612x612&w=0&k=20&c=ejlQRX4C_Mb40wz1JQcB5vKYcOKlfRtry2W6UcX6mlo=" alt="India Flag">
+                    </div>
+                </div>
+            </nav>
+            <!-- Background Layers -->
+            <div class="w-full h-screen absolute bg-green-900 bg-opacity-80 z-[3]"></div>
+            <div class="w-full h-screen absolute bg-green-800 bg-opacity-80 z-[2]">
+                <img class="w-full h-full object-cover" src="https://imgs.search.brave.com/RSkhEOh8t52wac39dXoCAQsIfZInSQufrpxbi5vP9ts/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZW5kYXZhLmNvbS9o/dWJmcy9FbmRhdmEl/MjAyMDI0L0luZHVz/dHJpZXMvVGVjaG5v/bG9neS9DYXNlJTIw/U3R1ZGllcy9hcm0t/Y2hpcC1lbGVjdHJv/bmljcy1jYXJvdXNl/bC1pbnNpZ2h0LWV4/cGFuZGVkLndlYnA" alt="Tech Background">
+            </div>
+            <!-- Hero Section -->
+            <div class="z-[8] relative">
+                <div class="flex gap-10">
+                    <div class="p-28 font-[gilroy] flex flex-col gap-[-2rem]">
+                        <div class="flex gap-5">
+                            <h1 class="text-[4rem] font-semibold text-[#00A550] tracking-tighter">Launch</h1>
+                            <h1 class="text-[4rem] font-semibold text-zinc-100 tracking-tighter">Your Startup</h1>
+                        </div>
+                        <h1 class="text-[4rem] text-zinc-100 font-semibold">With Confidence</h1>
+                        <p class="text-zinc-100 font-medium">
+                            Empowering startups with top-notch websites, branding, and digital solutions.
+                        </p>
+                        <h1 class="text-zinc-100 font-medium">
+                            Your success is our priority. Let's bring your vision to life!
+                        </h1>
+                        <h1 class="text-zinc-100 font-medium">
+                            Start now and stand out in the competitive startup ecosystem.
+                        </h1>
+                    </div>
+                    <div class="w-88 h-[30rem] rounded-md z-[999] absolute translate-y-24 translate-x-[50rem]">
+                        <img class="w-full h-full object-cover" src="./Screenshot_2025-01-26_222419-removebg-preview.png" alt="Startup Preview">
+                    </div>
+                    <!-- Buttons -->
+                    <div class="button flex gap-10 absolute translate-x-36 translate-y-[75vh] z-[10]">
+                        <div class="w-64 h-10 flex items-center transition hover:bg-green-600 justify-center rounded-md bg-green-500 text-zinc-100 font-medium tracking-tight">
+                            <h1 class="font-semibold tracking-tight text-zinc-100">Get Started</h1>
+                        </div>
+                        <div class="w-64 h-10 flex items-center transition hover:bg-green-600 justify-center rounded-md border-2 border-green-500 bg-transparent text-zinc-100 font-medium tracking-tight">
+                            <h1 class="font-semibold tracking-tight text-zinc-100">Explore Services</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="py-10 px-5 max-w-7xl mx-auto">
+            <!-- Stats Section -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center mb-10">
+                <div>
+                    <h3 class="text-3xl font-bold text-green-600">$3M+</h3>
+                    <p class="text-gray-600">Borrowed funds</p>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-green-600">2K+</h3>
+                    <p class="text-gray-600">Leverix active members</p>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-green-600">50+</h3>
+                    <p class="text-gray-600">Supported Cryptocurrencies</p>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-green-600">200+</h3>
+                    <p class="text-gray-600">Yield rewards</p>
+                </div>
+            </div>
+    
+            <!-- Benefits Section -->
+            <div class="text-center mb-8">
+                <h2 class="text-2xl font-bold text-gray-800">Know the <span class="text-green-600">Benefits</span></h2>
+                <p class="mt-3 text-gray-600 max-w-2xl mx-auto">
+                    The NextWaveStudios is licensed and regulated by the Financial Intelligence Unit (FIU) to offer services of exchanging virtual currency against FIAT and wallet management. We let users buy coins with cash, other crypto & various global payment methods.
+                </p>
+            </div>
+    
+            <!-- Features Section -->
+           <div class="p-10 flex gap-10">
+            <div class="w-56 h-28 rounded-md bg-red-500"></div>
+            <div class="w-56 h-28 rounded-md bg-red-500"></div>
+            <div class="w-56 h-28 rounded-md bg-red-500"></div>
+            <div class="w-56 h-28 rounded-md bg-red-500"></div>
+           </div>
+        </section>
+    </div>
+</body>
+</html>
